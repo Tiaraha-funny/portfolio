@@ -1,0 +1,41 @@
+body {
+    font-family: "Roboto";
+    box-sizing: border-box;
+    background-color: pink;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    line-height: 50px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+p {
+    font-size: 20px;
+}
+section {
+    text-align: center;
+    line-height: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+ul > li {
+    list-style: none;
+    font-size: 20px;
+}
+
+a {
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: #ff8906;
+    text-decoration: none;
+}
