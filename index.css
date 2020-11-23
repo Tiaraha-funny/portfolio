@@ -70,6 +70,9 @@ button {
 button:hover {
   background-color: #d9d4e7;
   color: #fffffe;
+  transform: translate(-4px, 2px);
+  transition-duration: 0.4s;
+  transition-timing-function: ease-in-out;
 }
 
 button > p:hover {
